@@ -129,11 +129,14 @@
 #include <vendor/display/config/1.6/IDisplayConfig.h>
 #include <vendor/display/config/1.7/IDisplayConfig.h>
 #include <vendor/display/config/1.9/IDisplayConfig.h>
+#include <composer_extn_intf.h>
 #include "gralloc_priv.h"
 #include "frame_extn_intf.h"
 #include "smomo_interface.h"
-composer::ComposerExtnLib composer::ComposerExtnLib::g_composer_ext_lib_;
+#include "layer_extn_intf.h"
 #endif
+
+composer::ComposerExtnLib composer::ComposerExtnLib::g_composer_ext_lib_;
 
 namespace android {
 

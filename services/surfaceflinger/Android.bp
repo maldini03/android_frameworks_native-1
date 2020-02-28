@@ -59,7 +59,6 @@ cc_defaults {
         "libinput",
         "libutils",
         "libSurfaceFlingerProp",
-        "libqdMetaData.system",
     ],
     static_libs: [
         "libcompositionengine",
